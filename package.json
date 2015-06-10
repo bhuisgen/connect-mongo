@@ -18,17 +18,17 @@
     "url": "https://github.com/kcbanner/connect-mongo/issues"
   },
   "dependencies": {
-    "debug": ">= 0.7.0",
-    "depd": ">= 0.4.0",
+    "debug": ">= 2.2.0",
+    "depd": ">= 1.0.1",
     "lodash": "*",
-    "mongodb": ">= 1.2.0 <2.1.0"
+    "mongodb": ">= 2.0.33"
   },
   "devDependencies": {
-    "express-session": ">= 1.0.0",
-    "grunt-contrib-jshint": "~0.10.0",
-    "jshint-stylish": "~1.0.0",
-    "mocha": "~2.1.0",
-    "mongoose": ">= 2.6.0 < 4.1.0"
+    "express-session": ">= 1.11.2",
+    "grunt-contrib-jshint": "~0.11.2",
+    "jshint-stylish": "~2.0.0",
+    "mocha": "~2.2.5",
+    "mongoose": ">= 4.0.5"
   },
   "scripts": {
     "test": "grunt && make test"
